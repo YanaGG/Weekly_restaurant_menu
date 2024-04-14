@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weekly restaurant menu</string>
+    <string name="day_meal">Day meal: </string>
+    <string name="dish_title">Dish title: </string>
+    <string name="description">Description: </string>
+    <string name="day_of_week">Day of week:</string>
+
+</resources>

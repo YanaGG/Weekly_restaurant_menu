@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink">
+
+        <TextView
+            android:id="@+id/textViewDayMealCore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/day_meal"
+            android:textStyle="bold"
+            android:padding="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDayMealFill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/pink_dark"
+            android:padding="2dp"
+            app:layout_constraintStart_toEndOf="@+id/textViewDayMealCore"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewTitleCore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/dish_title"
+            android:textStyle="bold"
+            android:padding="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDayMealCore" />
+
+        <TextView
+            android:id="@+id/textViewTitleFill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="2dp"
+            app:layout_constraintStart_toEndOf="@+id/textViewTitleCore"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDayMealFill" />
+
+        <TextView
+            android:id="@+id/textViewDescriptionCore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/description"
+            android:textStyle="bold"
+            android:padding="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitleCore" />
+
+        <TextView
+            android:id="@+id/textViewDescriptionFill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/pink_dark"
+            android:padding="2dp"
+            app:layout_constraintStart_toEndOf="@+id/textViewDescriptionCore"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitleFill" />
+
+        <TextView
+            android:id="@+id/textViewDayWeekCore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/day_of_week"
+            android:textStyle="bold"
+            android:padding="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDescriptionCore" />
+
+        <TextView
+            android:id="@+id/textViewDayWeekFill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@color/white"
+            android:padding="2dp"
+            app:layout_constraintStart_toEndOf="@+id/textViewDayWeekCore"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDescriptionFill" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
