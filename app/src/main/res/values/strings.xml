@@ -4,5 +4,27 @@
     <string name="dish_title">Dish title: </string>
     <string name="description">Description: </string>
     <string name="day_of_week">Day of week:</string>
+    <string name="meaty">MEATY</string>
+    <string name="vegan">VEGAN</string>
+    <string name="vegetarian">VEGETARIAN</string>
+    <string name="hint_title">Dish title:</string>
+    <string name="hint_description">Dish Description</string>
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
 
+    <string-array name="meal_of_day">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Dessert</item>
+        <item>Drink</item>
+    </string-array>
+    <string name="button_save">SAVE</string>
 </resources>

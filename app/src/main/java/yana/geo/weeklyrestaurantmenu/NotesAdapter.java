@@ -35,9 +35,9 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NotesViewHol
         int cuisineCode = note.getTypeOfMeal();
         switch (cuisineCode){
             case 1:
-                colorId = notesViewHolder.itemView.getResources().getColor(android.R.color.holo_green_light);
+                colorId = notesViewHolder.itemView.getResources().getColor(android.R.color.holo_green_dark);
                 break;
-            case 2:  colorId = notesViewHolder.itemView.getResources().getColor(android.R.color.holo_orange_light);
+            case 2:  colorId = notesViewHolder.itemView.getResources().getColor(android.R.color.holo_orange_dark);
                 break;
             default: colorId = notesViewHolder.itemView.getResources().getColor(android.R.color.holo_red_dark);
             break;

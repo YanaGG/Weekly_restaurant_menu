@@ -11,6 +11,8 @@
     <color name="pink_dark">#A3395D</color>
     <color name="yellow">#EAE194</color>
     <color name="blue_light">#7ECED9</color>
-
+    <color name="red">#EA5889</color>
+    <color name="green">#39A23E</color>
+    <color name="orange">#F94C15</color>
 
 </resources>
