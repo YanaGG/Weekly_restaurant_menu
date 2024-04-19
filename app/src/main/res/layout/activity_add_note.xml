@@ -76,7 +76,7 @@
             android:background="@color/red"
             android:layout_margin="8dp"
             android:padding="8dp"
-            android:text="@string/meaty" />
+            android:text="1" />
 
         <RadioButton
             android:id="@+id/radioButtonVegetarian"
@@ -86,7 +86,7 @@
             android:layout_margin="8dp"
             android:checked="true"
             android:padding="8dp"
-            android:text="@string/vegetarian"
+            android:text="2"
             />
 
         <RadioButton
@@ -96,17 +96,17 @@
             android:background="@color/green"
             android:layout_margin="8dp"
             android:padding="8dp"
-            android:text="@string/vegan" />
+            android:text="3" />
     </RadioGroup>
 
     <Button
         android:id="@+id/buttonSave"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="64dp"
+        android:layout_margin="48dp"
         android:background="@color/pink"
         android:text="@string/button_save"
-        android:onClick="onClickAddNote"
+        android:onClick="onClickSaveNote"
         app:backgroundTint="#2596A4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

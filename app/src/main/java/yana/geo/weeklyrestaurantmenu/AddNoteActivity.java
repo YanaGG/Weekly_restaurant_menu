@@ -29,7 +29,7 @@ public class AddNoteActivity extends AppCompatActivity {
         radioGroupTypeOfMeal = findViewById(R.id.radioGroupCuisineCode);
     }
 
-    public void onClickAddNote(View view) {
+    public void onClickSaveNote(View view) {
         String mealOfDay = spinnerMealOfDay.getSelectedItem().toString();
         String title = editTextTitle.getText().toString().trim();
         String description = editTextDescription.getText().toString().trim();
@@ -41,5 +41,6 @@ public class AddNoteActivity extends AppCompatActivity {
         MainActivity.notes.add(note);
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+
     }
 }
