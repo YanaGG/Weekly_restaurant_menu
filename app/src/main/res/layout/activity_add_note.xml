@@ -73,7 +73,7 @@
             android:id="@+id/radioButtonMeaty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/red"
+            android:background="@color/green"
             android:layout_margin="8dp"
             android:padding="8dp"
             android:text="1" />
@@ -93,7 +93,7 @@
             android:id="@+id/radioButtonVegan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/green"
+            android:background="@color/red"
             android:layout_margin="8dp"
             android:padding="8dp"
             android:text="3" />

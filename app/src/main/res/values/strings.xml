@@ -27,4 +27,5 @@
         <item>Drink</item>
     </string-array>
     <string name="button_save">SAVE</string>
+    <string name="warning">Fill all the fields!</string>
 </resources>

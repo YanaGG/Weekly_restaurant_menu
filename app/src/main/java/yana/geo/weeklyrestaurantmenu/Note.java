@@ -2,13 +2,16 @@ package yana.geo.weeklyrestaurantmenu;
 
 public class Note {
 
+    private int id;
     private String dayMeal;
     private String mealTitle;
     private String description;
     private String dayOfWeek;
     private int typeOfMeal;
 
-    public Note(String dayMeal, String mealTitle, String description, String dayOfWeek, int typeOfMeal) {
+
+    public Note(int id, String dayMeal, String mealTitle, String description, String dayOfWeek, int typeOfMeal) {
+        this.id = id;
         this.dayMeal = dayMeal;
         this.mealTitle = mealTitle;
         this.dayOfWeek = dayOfWeek;
@@ -16,6 +19,7 @@ public class Note {
         this.typeOfMeal =typeOfMeal;
     }
 
+    public int getId(){return id;}
     public String getDayMeal() {
         return dayMeal;
     }
